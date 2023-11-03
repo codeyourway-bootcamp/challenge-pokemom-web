@@ -1,42 +1,53 @@
-# Pokémon Challenge
-## Challenge for a Junior Mobile Engineer (Trainee)
+## Pokémon Challenge [Web Version]
 
-### The Task ✅
+### Challenge for a Junior Web/Mobile Developer (Trainee)
 
-#### Develop 2 Pokémon-related screens using the Poke API:
-1. **First Screen**: This should list all the Pokémon available from the following endpoint: [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
-   - Include a search input on this screen. This input should filter the Pokémon list displayed on the screen without making additional API calls.
 
-2. **Second Screen**: Display the details of the Pokémon selected from the first screen. For example, you'll need to capture the Pokémon's ID to fetch details from an endpoint like this: [https://pokeapi.co/api/v2/pokemon/1/](https://pokeapi.co/api/v2/pokemon/1/)
+## The Task ✅
 
-#### Key Points: 🔑
+### Develop 3 Pokémon-related screens using the Poke API:
 
-- Provide comprehensive documentation in the `readme.md`.
-- Ensure the application is free of bugs/errors.
-- Maintain a well-structured and clean codebase.
-- Make frequent commits with clear and descriptive commit messages.
-- Create a repository on GitHub and share the link with the recruiter/manager.
+First Screen: Static One just with the Images and the Button to navigate to the second screen.
 
-#### Requirements: ‼
+Second Screen: Create a web page that lists all the Pokémon available from the following endpoint: https://pokeapi.co/api/v2/pokemon. Include a search input on this page that filters the Pokémon list displayed on the screen without making additional API calls.
 
-- Utilize Expo. [Create your first app with Expo](https://docs.expo.dev/tutorial/create-your-first-app/)
-- Implement with TypeScript. [Expo with TypeScript](https://docs.expo.dev/guides/typescript/)
-- Use React Navigation for screen transitions. [React Navigation with Expo](https://reactnavigation.org/docs/getting-started/#installing-dependencies-into-an-expo-managed-project)
-- Style the app using styled-components. [Styled components with React Native](https://blog.logrocket.com/using-styled-components-with-react-native/)
-- Make API requests using Axios. [Axios with React Native](https://blog.logrocket.com/using-axios-with-react-native-manage-api-requests/)
-- Implement React Hooks (`useState`, `useEffect`, `useCallback`) where necessary.
+Third Screen: Create another web page that displays the details of the Pokémon selected from the first screen. For example, you'll need to capture the Pokémon's ID to fetch details from an endpoint like this: https://pokeapi.co/api/v2/pokemon/1/.
+
+Key Points: 🔑
+
+Provide comprehensive documentation in the readme.md
+
+Ensure the web application is free of bugs/errors.
+
+Maintain a well-structured and clean codebase.
+
+Make frequent commits with clear and descriptive commit messages.
+
+Create a repository on GitHub and share the link with the recruiter/manager.
+
+Requirements: ‼
+
+Use __Vite__ to set up your web project.
+
+Implement the application using React.
+
+Handle routing using __react-router-dom__.
+
+Style the app using __styled-components__.
+
+Make API requests using __Axios__.
+
+Implement React Hooks (useState, useEffect, useCallback) where necessary.
 
 🚨 Pay close attention to the design details.
 
-FIGMA LINK for design reference: [DESIGNS 💅](https://www.figma.com/file/gGYG9RcNbU1S3fejRJIwN0/App-Pokemon-(Community)-(Copy)?type=design&node-id=0%3A1&mode=design&t=oGrvKZZ6bqZZNUYq-1)
-
-<img width="334" alt="image" src="https://github.com/freddneos/challenge-pokemom-app/assets/36821426/c5e854b0-823d-4398-b347-b50f18f1e91d">
+FIGMA LINK for design reference: [DESIGNS](https://www.figma.com/file/zVPwIjpU23GXhjCnJyKnjj/Pokedex-(Community)?type=design&node-id=82%3A4159&mode=design&t=Rmn2bqkr81GCfXXs-1) 💅
 
 
-#### Tips 💡
-- Do all the logic and componentization first, all working and API consuming is good, and move to the design tasks.
-- The pokemon Images (3D) you can find on the `sprites` with the name `shiny` on it , follow the example below:
-<img width="243" alt="image" src="https://github.com/freddneos/challenge-pokemom-app/assets/36821426/ff8dba06-d808-4316-91be-77a2f1235ee7">
+Tips 💡
+Start by implementing all the logic and componentization before focusing on design tasks.
+Retrieve the Pokémon images (3D) from the sprites with the name "shiny" on it, following the example below:
 
+<img width="1279" alt="image" src="https://github.com/codeyourway-bootcamp/challenge-pokemom-web/assets/36821426/980fd6bf-b82e-415c-8bf7-20957078a820">
 
-DO YOUR BEST , AND GOOD LUCK!! 🍀
+DO YOUR BEST, AND GOOD LUCK!! 🍀
